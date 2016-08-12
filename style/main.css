@@ -112,8 +112,10 @@ p {
     position: relative;
 }
 
-
 #Number09 {
 	font-size: 32px;
 	color: #FFFFFF;
+}
+
+.leaf {
 }
