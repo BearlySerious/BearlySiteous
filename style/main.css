@@ -1,0 +1,112 @@
+body {
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: Consolas;
+    src: url(Consolas.ttf);
+}
+
+@font-face {
+    font-family: Consolas;
+    src: url(Consolas_Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Consolas;
+    src: url(Consolas_Italic.ttf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Consolas;
+    src: url(Consolas_Bold_Italic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Engschrift;
+    src: url(DIN_1451_Std_Engschrift.ttf);
+}
+
+div {
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Engschrift;
+}
+
+.border {
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    margin: 0px;
+    font-family: Consolas;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    max-width: 1175px;
+    max-height: 728px;
+    min-width: 1175px;
+    min-height: 728px;
+}
+
+.border {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1215px;
+    min-width: 1215px;
+    max-height: 768px;
+    min-height: 768px;
+}
+
+.column {
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.row {
+    flex-direction: row;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.small {
+    flex-shrink: 1.61803;
+    position: relative;
+}
+
+.large {
+    flex-shrink: 1;
+    position: relative;
+}
