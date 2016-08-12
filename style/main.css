@@ -111,3 +111,9 @@ p {
     flex-shrink: 1;
     position: relative;
 }
+
+
+#Number09 {
+	font-size: 32px;
+	color: #FFFFFF;
+}
